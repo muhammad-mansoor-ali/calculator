@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Video -->
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="5091624-hd_1920_1080_24fps.mp4" type="video/mp4">
+    </video>
+
+    <!-- Calculator Box -->
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="inputbox" value="0" placeholder="0" disabled>
+        </div>
+
+        <div class="row">
+            <button class="opr">AC</button>
+            <button class="opr">DEL</button>
+            <button class="opr">%</button>
+            <button class="opr">/</button>
+        </div>
+
+        <div class="row">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="opr">*</button>
+        </div>
+
+        <div class="row">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="opr">+</button>
+        </div>
+
+        <div class="row">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="opr">-</button>
+        </div>
+
+        <div class="row">
+            <button id="plusminus">±</button>
+            <button>0</button>
+            <button>.</button>
+            <button id="eqBtn">=</button>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
